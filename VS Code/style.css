@@ -1,0 +1,104 @@
+/* Example of External CSS */
+* {
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+#third {
+    background-color: rgba(175, 15, 244, 0.37);
+}
+
+.fourth {
+    background-color: rgba(243, 8, 8, 0.311);
+    color: rgb(243, 7, 136);
+}
+
+#fifth {
+    background-color: palegoldenrod;
+}
+
+#sixth {
+    background-color: skyblue;
+}
+
+h2 {
+    background-color: rgb(101, 76, 82);
+}
+
+.fourth h2 {
+    color: rgb(4, 0, 0);
+}
+
+h1 {
+    background-color: rgba(10, 11, 10, 0.461);
+    color: white;
+}
+
+.fourth {
+    background-image: url("VS images/IPL.jpg");
+    background-repeat: round;
+    background-size: contain;
+    border: 4px solid rgb(14, 222, 24);
+    background-attachment: scroll;
+}
+
+body {
+    background-image: url("VS images/BG.jpeg");
+    background-attachment: fixed;
+    border: 4px solid rgb(93, 53, 211);
+    border-radius: 15px;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+
+.heyy {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: large;
+    text-align: left;
+    color: white;
+    text-shadow: 15px 4px 20px black;
+}
+
+.seventh {
+
+    background-attachment: scroll;
+    background-color: rgb(127, 255, 0, 0.511);
+    text-transform: capitalize;
+    column-count: 1;
+    line-height: 50px;
+
+}
+
+.seventh p {
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: bolder;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: magenta;
+}
+
+a:active {
+    color: yellow;
+}
